@@ -10,6 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.11",
-    "gulp-load-plugins": "^0.8.0"
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-task-listing": "^1.0.0"
   }
 }
