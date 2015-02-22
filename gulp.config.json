@@ -6,5 +6,7 @@
 	"js": [
 		"./src/client/app/**/*module*.js",
 		"./src/client/app/**/*.js"
-	]
+	],
+	"report": "./report/",
+	"build": "./build/"
 }
