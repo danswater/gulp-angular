@@ -1,0 +1,26 @@
+<!doctype html>
+<html data-ng-app="presently" data-ng-csp="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Presently</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/angular-csp.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div ng-view></div>
+            <div id="actionbar">
+                <ul class="list-inline">
+                    <li><a class="glyphicon glyphicon-home" href="#/"></a></li>
+                    <li><a class="glyphicon glyphicon-cog" href="#/settings"></a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+    </body>
+</html>

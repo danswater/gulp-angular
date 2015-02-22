@@ -1,0 +1,5 @@
+<div id="datetime">
+    <h1>{{ date.raw | date:'hh:mm a' }}</h1>
+    <h2>Good {{ date.raw | getPeriod }}, <span editable="setName">{{ user.name }}</span>!</h2>
+    <h3>{{ date.raw | date: 'EEEE, MMMM d, yyyy' }}</h3>
+</div>
