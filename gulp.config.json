@@ -9,7 +9,22 @@
 	],
 	"vendorjs": [
 	    "./bower_components/angular/angular.min.js",
-	    "./bower_components/angular-route/angular-route.min.js"
+	    "./bower_components/angular-route/angular-route.min.js",
+	    "./bower_components/angular-animate/angular-animate.min.js",
+	    "./bower_components/angular-sanitize/angular-sanitize.min.js",
+	    "./bower_components/toastr/toastr.min.js"
+	],
+	"vendorcss": [
+		"./bower_components/bootstrap/dist/css/bootstrap.min.css",
+		"./bower_components/font-awesome/css/font-awesome.min.css",
+		"./bower_components/toastr/toastr.css"
+	],
+	"css": [
+		"./src/client/content/customtheme.css",
+		"./stc/client/content/styles.css"
+	],
+	"images": [
+		"./src/client/content/images/**/*"
 	],
 	"report": "./report/",
 	"build": "./build/"
